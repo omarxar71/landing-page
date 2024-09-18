@@ -1,354 +1,42 @@
+
 @media (max-width: 768px) {
-    .nav-content {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .sections ul {
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 10px;
-    }
-  
-    .contact {
-      align-items: flex-start;
-      margin-top: 10px;
-    }
+  .home-image .content {
+    top: 20%;
+    text-align: center;
   }
-  
-  @media (max-width: 480px) {
-    .image-nav img {
-      width: 120px;
-    }
-  
-    .sections ul {
-      gap: 5px;
-    }
-  
-    .contact p {
-      font-size: 14px;
-    }
+  .info .images {
+    position: relative;
   }
-/* home section    */
-@media (max-width: 768px) {
-    .home-image {
-      padding: 20px;
-    }
-  
-    .container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
-    .progress {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 20px;
-    }
-  
-  
-  
-    .progress-bar {
-      width: 100px;
-      height: 5px;
-    }
-
-.home .content{
-
-
-}
-
-  
-    .buttons {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      margin-top: 20px;
-
-    }
-  
-    .buttons button {
-      padding: 10px 20px;
-      font-size: 16px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .container {
-      padding: 100px;
-  
-    }
-    .home-image {
-      display: flex;
-      align-items: center;
-    justify-content: center;    
-
-}
-.home-image .content{
-top: 10%;
-}
-  
-    .progress-bar , .progress span {
-   display: none;
-    }
-  
-    .buttons button {
-      padding: 8px 15px;
-      font-size: 14px;
-      
-    }
-  }
-
-  /* info  */
-  @media (max-width: 768px) {
-    .info .container {
-      padding: 20px;
-      text-align: center;
-    }
-    .info .image{
-
-      height: 400px;
+  .info .images .icon{
+    display: none;
 
   }
   .info .image .content{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 10%;
-    color: white;
-}
-
-.image-solar-kit{
-
-  height: 505px;
-  gap: 0px;
-  opacity: 0px;
-  color:white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.image-solar-kit .content{
-  width: 100%;
-  padding: 44px 0px 0px 0px;
-  gap: 32px;
-  border-radius: 12px 0px 0px 0px;
-  opacity: 0px;
-  background: #00000091;
-  text-align: center;
-  padding: 20px;
-  height: fit-content;
-margin-bottom: 90px;
+    top: 20%;
+  } 
+  .solar-kit .cards .card{
+    width: 100%;
   }
   .image-solar-kit .content h1{
     font-size: 20px;
   }
   .image-solar-kit .content p{
-    font-size: 10px;
+    font-size: 15px;
   }
-  
-  
-    .content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .about-us {
-      margin-bottom: 20px;
-    }
-  
-    .about-us .us {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 10px;
-    }
-  
-    .images {
-      margin-top: 20px;
-    }
-  
-    .images img {
-      width: 100%;
-      max-width: 300px;
-    }
-  
-  }
-  
-  @media (max-width: 480px) {
-    .energy{
-      padding-top: 100px;
-    }
-  }
-
-  .image-solar-kit .content{
-    
-  }
-    .container{
-      width: 50%;
-    }
-    .info .content .about-us .us{
-   text-align: center;
-    }
-    .image-solar-kit {
-      width: 100%;
-    }
- 
-    .info .images .icon {
-      background-color: #FFBB1C;
-      padding:10px;
-      border-radius: 10px;
-      position: absolute;
-      bottom: 40px;
-      left: -100px;
-  }
-  
-  .info .images .icon i {
-      font-size: 50px;
-  }
-  .info .images .icon p {
-      color:  black;
-  }
-  
-    .about-us .us {
-      flex-direction: column;
-      gap: 5px;
-    }
-  
-  
-
-
-  /* solar kit  */
-  @media (max-width: 768px) {
-    .solar-kit{
-        text-align: center;
-    }
-    .solar-kit .container .cards{
-        text-align: center;
-    }
-    .solar-kit .container {
-      padding: 20px;
-      text-align: center;
-    }
-    .solar-kit .cards .card{
-        width: 100% ;
-    }
-  
-
-
-  
-    .cards {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      gap: 20px;
-
-    }
-  
-    .card .image img {
-      width: 100%;
-      max-width: 300px;
-    }
-    .cards-energy {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-  
-  }
-  
-  @media (max-width: 480px) {
-    .sec-head h1 {
-      font-size: 24px;
-    }
-  
-    .sec-head p {
-      font-size: 14px;
-    }
-  
-    .card .image img {
-      width: 100%;
-    }
-
-  }
-  /* energy  */
-  @media (max-width: 768px) {
- 
-  
-    .cards-energy {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      gap: 20px;
-    }
-  
-    .cards-energy .card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%!important;
-      text-align: center;
-    }
-    .cards-energy .card .inner .image {
-      width: 70px;
-      text-align: center;
-      margin:auto;
-    }
-    .cards-energy .card .inner .image img{
-      width: 1000%;
-    }
-
-  @media (max-width: 480px) {
-    .content-energy h1 {
-      font-size: 24px;
-    }
-    .cards-energy .card .inner .image img{
-      width: 100% !important;
-    }
-    .cards-energy .card .inner .image {
-      width: 100px !important;
-    }
-    .content-energy p {
-      font-size: 14px;
-    }
-  
-    .cards-energy .content h3 {
-      font-size: 20px;
-    }
-  
-    .cards-energy .content p {
-      font-size: 13px;
-    }
-  
-    .cards-energy .content a {
-      font-size: 13px;
-    }
-  }
-
-
-
-
-}
-@media (max-width: 480px) {
-  .our-values .cards {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .our-values .cards .card{
+  .container-energy .cards-energy .card{
     width: 100%;
-   
   }
-}
-/* footer (additional)  */
-@media (max-width: 768px) {
-  footer{
+  .our-values .cards .card {
+    width: 100%;
+  }
+  .what-they-say .container {
     flex-wrap: wrap;
-  }
+    display: flex;
+}
+  .what-they-say .content {
+    width: 100%;
+}
+.what-they-say .card {
+  width: 100%;
+}
 }
