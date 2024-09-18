@@ -81,16 +81,27 @@
   
   @media (max-width: 480px) {
     .container {
-      padding: 10px;
-    }
+      padding: 100px;
   
-    .progress-bar {
-      width: 80px;
+    }
+    .home-image {
+      display: flex;
+      align-items: center;
+    justify-content: center;    
+
+}
+.home-image .content{
+top: 10%;
+}
+  
+    .progress-bar , .progress span {
+   display: none;
     }
   
     .buttons button {
       padding: 8px 15px;
       font-size: 14px;
+      
     }
   }
 
@@ -100,7 +111,48 @@
       padding: 20px;
       text-align: center;
     }
+    .info .image{
 
+      height: 400px;
+
+  }
+  .info .image .content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    color: white;
+}
+
+.image-solar-kit{
+
+  height: 505px;
+  gap: 0px;
+  opacity: 0px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-solar-kit .content{
+  width: 100%;
+  padding: 44px 0px 0px 0px;
+  gap: 32px;
+  border-radius: 12px 0px 0px 0px;
+  opacity: 0px;
+  background: #00000091;
+  text-align: center;
+  padding: 20px;
+  height: fit-content;
+margin-bottom: 90px;
+  }
+  .image-solar-kit .content h1{
+    font-size: 20px;
+  }
+  .image-solar-kit .content p{
+    font-size: 10px;
+  }
+  
   
     .content {
       flex-direction: column;
@@ -130,7 +182,39 @@
   }
   
   @media (max-width: 480px) {
+    .energy{
+      padding-top: 100px;
+    }
+  }
 
+  .image-solar-kit .content{
+    
+  }
+    .container{
+      width: 50%;
+    }
+    .info .content .about-us .us{
+   text-align: center;
+    }
+    .image-solar-kit {
+      width: 100%;
+    }
+ 
+    .info .images .icon {
+      background-color: #FFBB1C;
+      padding:10px;
+      border-radius: 10px;
+      position: absolute;
+      bottom: 40px;
+      left: -100px;
+  }
+  
+  .info .images .icon i {
+      font-size: 50px;
+  }
+  .info .images .icon p {
+      color:  black;
+  }
   
     .about-us .us {
       flex-direction: column;
@@ -153,7 +237,7 @@
       text-align: center;
     }
     .solar-kit .cards .card{
-        width: 100% !important;
+        width: 100% ;
     }
   
 
@@ -200,7 +284,7 @@
     .cards-energy {
       display: flex;
       flex-direction: column;
-
+      text-align: center;
       gap: 20px;
     }
   
@@ -208,15 +292,28 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 100% !important;
+      width: 100%!important;
+      text-align: center;
     }
-  
+    .cards-energy .card .inner .image {
+      width: 70px;
+      text-align: center;
+      margin:auto;
+    }
+    .cards-energy .card .inner .image img{
+      width: 1000%;
+    }
 
   @media (max-width: 480px) {
     .content-energy h1 {
       font-size: 24px;
     }
-  
+    .cards-energy .card .inner .image img{
+      width: 100% !important;
+    }
+    .cards-energy .card .inner .image {
+      width: 100px !important;
+    }
     .content-energy p {
       font-size: 14px;
     }
@@ -233,10 +330,20 @@
       font-size: 13px;
     }
   }
-  /* our values  */
-  .our-values .cards .card {
-    width: 100% !important;
-    text-align: center;
+
+
+
+
+}
+@media (max-width: 480px) {
+  .our-values .cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .our-values .cards .card{
+    width: 100%;
+   
   }
 }
 /* footer (additional)  */
