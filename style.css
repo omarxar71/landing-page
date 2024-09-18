@@ -1,0 +1,655 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+/* end global */
+/* start header */
+nav{
+    background-color:#0B9586;
+    padding:16px, 150px, 16px, 150px ; 
+    height: 57px;
+
+}
+.nav-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.image-nav {
+    width: 100px;
+    margin-top: 20px;
+}
+.image-nav img{
+width: 100%;
+
+    
+}
+.sections ul{
+    display: flex;
+    margin-bottom:0 ;
+    
+}
+.sections ul li{
+    margin-right: 25px;
+    
+}
+.sections ul li a {
+    color: white;
+}
+.active{
+    box-shadow: 3px 3px 3px black;
+    padding: 1px 20px;
+}
+.contact{
+    color: white;
+}
+.contact p{
+    margin: 0;
+}
+
+
+/* home section */
+.home-image{
+    height: 100vh;
+    background-image: url(./images/solar.png);
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.progress{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 60px;
+}
+.progress span{
+    margin-inline: 7px;
+}
+.progress-bar {
+    width: 20%;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+}
+.progress-bar::after{
+    content: "1/4";
+    font-size: 30px;
+    color: white;
+    position: absolute;
+
+
+}
+.progress-bar-inner {
+    width: 25%;
+    height: 30px;
+    background-color: white; 
+    border-radius: 20px 0 0 20px; 
+}
+.home-image .content{
+    position: absolute;
+    top: 50%;
+}
+.home-image .content h1{
+    font-family: Inter;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 62.93px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 0;
+    color: white;    
+}
+.home-image .content p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+}
+.home-image .content .buttons button{
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 16.94px;
+letter-spacing: 0.08em;
+text-align: left;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+border-radius: 20px;
+background-color: #FFBB1C;
+margin-right: 10px;
+
+
+} 
+.buttons button:first-child {
+    /* Add your styles here for the first button */
+    background-color: #3CAB90 !important;
+    color: white;
+
+}
+
+
+/* start info  */
+.info .container h1{
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+}
+.info .container p{
+
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: gray;
+}
+.info .content{
+    display: flex;
+}
+.about-us{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us .us{
+    display: flex;
+    align-items: center;
+}
+.about-us .us span{
+    margin-right:5 px;
+    color:#84BD3A;
+    font-family: Akazan;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.28px;
+    letter-spacing: 4px;
+    text-align: left;
+
+
+}
+.about-us .us p{
+font-family: Inter;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: black;
+margin-top: 10px;
+}
+.info .images{
+    width: 50%;
+    position: relative;
+}
+.info .images img{
+    width: 100%;
+}
+.info .images .icon {
+    background-color: #FFBB1C;
+    padding:24px 30px 24px 30px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 40px;
+    left: -100px;
+}
+
+.info .images .icon i {
+    font-size: 50px;
+}
+.info .images .icon p {
+    color:  black;
+}
+.info .image{
+    background-image: url(./images/8116\ 1.png);
+    width: 100%;
+    height: 505px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 30px;
+    background-size: cover;
+    position: relative;
+}
+.info .image .content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    color: white;
+}
+.info .image .content h1{
+    margin-bottom: 10px;
+}
+.info .image .content p{
+    color: white;
+}
+.info .image .content .buttons button {
+ background-color: #FFBB1C !important;
+ padding: 10px 20px;
+ border-radius: 15px;
+ border: none;
+ color: black;
+}
+
+/* solar kit  */
+.solar-kit .sec-head{
+text-align: center;
+}
+.solar-kit .sec-head h1 {
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 50.83px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    
+
+}
+.solar-kit .sec-head p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    
+    
+
+}
+.solar-kit .cards{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.solar-kit .cards .card {
+    width: calc(33.333% - 20px);
+    padding: 10px;
+
+}
+.solar-kit .cards .card .inner {
+   
+    box-shadow: 0px 4px 30px 0px #0000000D;
+
+} 
+.solar-kit .cards .card .inner .content {
+
+    padding: 20px;
+} 
+.solar-kit .cards .card .inner .content h3{
+
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+
+}
+.solar-kit .cards .card .inner .content p {
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+
+}
+.solar-kit .cards .card .inner .content a {
+    gap: 8px;
+    opacity: 0px;
+    color: #3CAB90;
+    display: flex;
+    align-items: center;
+
+}
+.solar-kit .cards .card .inner .image img{
+    width: 100%;
+}
+.image-solar-kit{
+    background-image: url(./images/8116\ 1\ \(1\).png);
+    height: 505px;
+    gap: 0px;
+    opacity: 0px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-solar-kit .content{
+width: Fixed (858px)px;
+height: Hug (311px)px;
+padding: 44px 0px 0px 0px;
+gap: 32px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+background: #00000091;
+text-align: center;
+padding: 20px;
+}
+.image-solar-kit .content h1{
+    font-family: Inter;
+font-size: 42px;
+font-weight: 600;
+line-height: 50.83px;
+letter-spacing: -0.02em;
+text-align: center;
+}
+.image-solar-kit .content p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}
+.energy{
+background-color: #FFBB1C0D;
+padding-top: 40px;
+}
+.content-energy{
+    width: 30%;
+}
+.cards-energy{
+    width: 70%;
+}
+.container-energy{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container-energy .cards-energy{
+    padding-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-energy .cards-energy .card{
+    width: calc(50% - 14px);
+    border: 2px solid #3CAB90;
+    box-sizing: border-box;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: fit-content;
+    border-radius: 5px;
+
+}
+.container-energy .cards-energy .card .inner{
+    padding: 20px;
+}
+.container-energy .cards-energy .card .inner .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-energy .cards-energy .card .inner a {
+    display:flex;
+    align-items: center;
+}
+.container-energy .cards-energy .card .inner a i{
+    padding-left: 4px;
+}
+.container-energy .cards-energy .card .inner .image img{
+    width: 310px;
+border-radius:10px;
+
+
+}
+.icon-energy-cont{
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #3CAB9026;
+    width: fit-content;
+}
+.icon-energy{
+        color: white;
+        background-color: #3CAB90;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         border-radius: 4px;
+    width: fit-content;
+    padding: 10px;
+
+
+
+}
+/* our values  */
+.our-values-head{
+    text-align: center;
+}
+.our-values .cards{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.our-values .cards .card{
+    width: calc(100% / 3 ) ;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+}
+.our-values .cards .card i {
+    color: #3CAB90;
+    font-size: 30px;
+}
+.our-values .cards .card .inner{
+    padding: 20px;
+    background-color: #3CAB900D;
+    border-radius: 8px;
+}
+.our-values .cards .card h3{
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+
+}
+.our-values .cards .card p{
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+.pagination {
+    display: flex;
+    justify-content: center; /* Centers the bullets */
+    align-items: center;
+    gap: 10px; /* Adds space between the bullets */
+  }
+  
+  .bullet {
+    width: 15px;
+    height: 15px;
+    background-color: #ddd; /* Default bullet color */
+    border-radius: 50%; /* Makes bullets circular */
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .what-they-say{
+    padding-top: 50px;
+  }
+  .what-they-say .container{
+    display: flex;
+  }
+  .what-they-say .content{
+    width: 40%;
+  }
+  .what-they-say .card{
+    width: 60%;
+    background-color: #3CAB900F;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .what-they-say .card .head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  .what-they-say .card .content {
+    font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+width: 100%;
+
+  }
+  .what-they-say .card  .person-info{
+    display: flex;
+    align-items: center;
+  }
+  .what-they-say .card  .person-info .name{
+    margin-left: 5px;
+  }
+  .what-they-say .card  .person-info p{
+    margin: 0;
+    font-weight: bolder;
+  }
+  .what-they-say .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .what-they-say .arrows i{
+padding: 15px;
+    gap: 0px;
+   border: 1px solid black;
+   border-radius: 50%;
+    opacity: 0px;
+    
+  }
+  .what-they-say .content i{
+    width: 58.33px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    color: #3CAB90;    
+    font-size: 70px;
+  }
+  .what-they-say .content h1{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    
+
+  }
+  .what-they-say .content p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+
+  }
+
+
+
+
+
+
+
+
+  /* start footer  */
+  footer{
+    .email-input-container {
+        position: relative;
+        width: 100%;
+        border-radius: 30px;
+        max-width: 400px;
+      }
+      
+      .email-input {
+        width: 100%; 
+        padding:10px; 
+        font-size: 16px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        height: 50px;
+        margin-top: 20px;
+      }
+      
+      .email-btn {
+        margin-top: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 50px;
+        padding: 0 20px; /* Adjust button padding as needed */
+        background-color: #FFBB1C;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-radius: 30px;
+      }
+      
+      .email-btn:hover {
+        background-color: #2e8b74;
+      }
+      
+    
+    ul {
+        display: inline-grid;
+        grid-auto-flow: row;
+        grid-gap: 24px;
+        justify-items: center;
+        margin: auto;
+      }
+      
+      @media (min-width: 500px) {
+        ul {
+          grid-auto-flow: column;
+        }
+      }
+      
+      a {
+        color: white;
+        text-decoration: none;
+        box-shadow: inset 0 -1px 0 hsla(0, 0%, 100%, 0.4);
+      }
+      /* below is just for demo styling */
+      
+      div {
+        display: flex;
+        height: 20vh;
+        width: 100%;
+        background-color: #002a38;
+        line-height: 1.3;
+        font-family: Menlo, monospace;
+      }
+  }
+  

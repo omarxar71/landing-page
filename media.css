@@ -1,0 +1,247 @@
+@media (max-width: 768px) {
+    .nav-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .sections ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .contact {
+      align-items: flex-start;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-nav img {
+      width: 120px;
+    }
+  
+    .sections ul {
+      gap: 5px;
+    }
+  
+    .contact p {
+      font-size: 14px;
+    }
+  }
+/* home section    */
+@media (max-width: 768px) {
+    .home-image {
+      padding: 20px;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .progress {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  
+  
+  
+    .progress-bar {
+      width: 100px;
+      height: 5px;
+    }
+
+.home .content{
+
+
+}
+
+  
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+
+    }
+  
+    .buttons button {
+      padding: 10px 20px;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .progress-bar {
+      width: 80px;
+    }
+  
+    .buttons button {
+      padding: 8px 15px;
+      font-size: 14px;
+    }
+  }
+
+  /* info  */
+  @media (max-width: 768px) {
+    .info .container {
+      padding: 20px;
+      text-align: center;
+    }
+
+  
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .about-us {
+      margin-bottom: 20px;
+    }
+  
+    .about-us .us {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .images {
+      margin-top: 20px;
+    }
+  
+    .images img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+
+  
+    .about-us .us {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+  }
+
+
+  /* solar kit  */
+  @media (max-width: 768px) {
+    .solar-kit{
+        text-align: center;
+    }
+    .solar-kit .container .cards{
+        text-align: center;
+    }
+    .solar-kit .container {
+      padding: 20px;
+      text-align: center;
+    }
+    .solar-kit .cards .card{
+        width: 100% !important;
+    }
+  
+
+
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      gap: 20px;
+
+    }
+  
+    .card .image img {
+      width: 100%;
+      max-width: 300px;
+    }
+    .cards-energy {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+  }
+  
+  @media (max-width: 480px) {
+    .sec-head h1 {
+      font-size: 24px;
+    }
+  
+    .sec-head p {
+      font-size: 14px;
+    }
+  
+    .card .image img {
+      width: 100%;
+    }
+
+  }
+  /* energy  */
+  @media (max-width: 768px) {
+ 
+  
+    .cards-energy {
+      display: flex;
+      flex-direction: column;
+
+      gap: 20px;
+    }
+  
+    .cards-energy .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100% !important;
+    }
+  
+
+  @media (max-width: 480px) {
+    .content-energy h1 {
+      font-size: 24px;
+    }
+  
+    .content-energy p {
+      font-size: 14px;
+    }
+  
+    .cards-energy .content h3 {
+      font-size: 20px;
+    }
+  
+    .cards-energy .content p {
+      font-size: 13px;
+    }
+  
+    .cards-energy .content a {
+      font-size: 13px;
+    }
+  }
+  /* our values  */
+  .our-values .cards .card {
+    width: 100% !important;
+    text-align: center;
+  }
+}
+/* footer (additional)  */
+@media (max-width: 768px) {
+  footer{
+    flex-wrap: wrap;
+  }
+}
